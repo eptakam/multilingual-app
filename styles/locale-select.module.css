@@ -1,0 +1,28 @@
+.select {
+  padding: 2px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.select:hover {
+  border-color: #060f13;
+}
+
+.option {
+  padding: 2px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+/* .option[selected]::before {
+  content: "✔ ";
+  color: green;
+} */

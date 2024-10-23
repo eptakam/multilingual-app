@@ -1,0 +1,44 @@
+/* main-header.module.css */
+.inlineList {
+  display: flex;
+  gap: 20px;
+  /* align-items: center; */
+}
+
+.inlineList li {
+  list-style: none;
+}
+
+.inlineList a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.inlineList a:hover {
+  text-decoration: underline;
+}
+
+.navbarRight {
+  margin-left: 300px;
+  display: flex;
+  gap: 80px;
+  /* align-items: center; */
+  white-space: nowrap;
+  align-content: stretch;
+}
+
+.navbarRight li {
+  list-style: none;
+}
+
+.navbarRight a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbarRight a:hover {
+  text-decoration: underline;
+}
